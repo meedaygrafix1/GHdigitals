@@ -1,12 +1,13 @@
 import React from 'react';
 import './Footer.css';
+import ghLogo from '../assets/gh-logo.png';
 
 const Footer = () => {
     return (
         <footer className="footer" id="contact">
             <div className="container footer-container">
                 <div className="footer-brand">
-                    <img src="/src/assets/gh-logo.png" alt="GH Digitals Logo" className="footer-logo" height="60" />
+                    <img src={ghLogo} alt="GH Digitals Logo" className="footer-logo" height="60" />
                     <p>Transforming social media marketing and digital branding.</p>
                 </div>
 

@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import Button from './Button';
 
+import ghLogo from '../assets/gh-logo.png';
+
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -18,7 +20,7 @@ const Navbar = () => {
         <header className={`navbar ${scrolled ? 'scrolled' : ''}`}>
             <div className="container navbar-container">
                 <a href="#" className="logo">
-                    <img src="/src/assets/gh-logo.png" alt="GH Digitals Logo" height="50" />
+                    <img src={ghLogo} alt="GH Digitals Logo" height="50" />
                 </a>
 
                 <nav className={`nav-links ${mobileMenuOpen ? 'open' : ''}`}>
