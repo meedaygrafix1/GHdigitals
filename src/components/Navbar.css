@@ -97,13 +97,20 @@
 @media (max-width: 768px) {
     .navbar {
         position: fixed;
-        padding: 1.5rem 0;
-        /* Enable background transition for sticky nav */
+        padding: 1rem 0;
+        /* Smaller consistent padding for mobile */
+        background: rgba(20, 69, 39, 0.95);
+        /* 
+           Make background always visible or at least consistent 
+           to avoid "dropdown" popping effect of background appearing.
+           Or if we want it to be transparent at top, we keep the transition but remove padding change.
+        */
     }
 
     .navbar.scrolled {
-        /* Apply background on scroll for readability */
+        /* No padding change for mobile to prevent "dropdown/jump" effect */
         padding: 1rem 0;
+        /* Ensure background is solid if not already */
         background: rgba(20, 69, 39, 0.95);
         backdrop-filter: blur(10px);
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
