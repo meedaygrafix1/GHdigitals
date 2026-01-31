@@ -4,6 +4,8 @@ import './Academy.css';
 import { HugeiconsIcon } from '@hugeicons/react';
 import { SmartPhone01Icon, CheckmarkCircle02Icon, Megaphone01Icon, PaintBoardIcon, ChartIncreaseIcon, UserAdd01Icon, Video01Icon, MagicWand02Icon, StarIcon, PlayCircle02Icon } from '@hugeicons/core-free-icons';
 
+import mobileFirstImage from '../assets/mobile-first-new.jpg';
+
 const Academy = () => {
     return (
         <section id="academy" className="academy-section">
@@ -30,7 +32,7 @@ const Academy = () => {
                     </div>
                     <div className="highlight-visual">
                         <div className="visual-box image-container">
-                            <img src="/src/assets/mobile-first-new.jpg" alt="Mobile First Approach" className="highlight-image" />
+                            <img src={mobileFirstImage} alt="Mobile First Approach" className="highlight-image" />
                         </div>
                     </div>
                 </div>
