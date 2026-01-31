@@ -96,19 +96,17 @@
 
 @media (max-width: 768px) {
     .navbar {
-        position: absolute;
+        position: fixed;
         padding: 1.5rem 0;
-        /* consistent padding */
-        background: transparent !important;
-        /* prevent scrolled background */
-        backdrop-filter: none !important;
-        box-shadow: none !important;
-        border-bottom: none !important;
+        /* Enable background transition for sticky nav */
     }
 
     .navbar.scrolled {
-        /* Reset scrolled state for mobile */
-        padding: 1.5rem 0;
+        /* Apply background on scroll for readability */
+        padding: 1rem 0;
+        background: rgba(20, 69, 39, 0.95);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     }
 
     .nav-links {
