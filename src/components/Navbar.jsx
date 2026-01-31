@@ -11,10 +11,14 @@ const Navbar = () => {
     useEffect(() => {
         const handleScroll = () => {
             setScrolled(window.scrollY > 50);
+            // Close mobile menu on scroll to prevent accidental display
+            if (mobileMenuOpen) {
+                setMobileMenuOpen(false);
+            }
         };
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
+    }, [mobileMenuOpen]);
 
     return (
         <header className={`navbar ${scrolled ? 'scrolled' : ''}`}>

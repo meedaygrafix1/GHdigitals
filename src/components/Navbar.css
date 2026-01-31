@@ -118,7 +118,7 @@
 
     .nav-links {
         position: fixed;
-        top: -100%;
+        top: 0;
         left: 0;
         width: 100%;
         height: auto;
@@ -127,12 +127,20 @@
         flex-direction: column;
         justify-content: flex-start;
         padding-top: 5rem;
-        transition: 0.3s ease-in-out;
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        /* Hidden by default */
+        transform: translateY(-100%);
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
     }
 
     .nav-links.open {
-        top: 0;
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
     }
 
     .desktop-cta {
