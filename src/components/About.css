@@ -255,4 +255,10 @@
         min-width: unset;
         max-width: 100%;
     }
+
+    .stat-item {
+        flex: 0 1 100%;
+        min-width: unset;
+        max-width: 100%;
+    }
 }
