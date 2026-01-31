@@ -228,12 +228,14 @@
 }
 
 @media (max-width: 768px) {
-    .package-card.featured {
-        transform: scale(1);
+    .service-card {
+        flex: 0 1 100%;
+        min-width: unset;
+        max-width: 100%;
     }
 
-    .package-card.featured:hover {
-        transform: translateY(-5px) scale(1);
+    .package-card.featured {
+        transform: scale(1);
     }
 
     .package-card.featured:hover {

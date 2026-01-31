@@ -247,3 +247,12 @@
     transform: translateY(-3px);
     box-shadow: var(--shadow-md);
 }
+
+/* Mobile: Make Why Choose Us cards wider */
+@media (max-width: 768px) {
+    .features-grid .feature-card {
+        flex: 0 1 100%;
+        min-width: unset;
+        max-width: 100%;
+    }
+}
