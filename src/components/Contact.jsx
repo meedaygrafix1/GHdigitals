@@ -19,9 +19,16 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Placeholder for submission logic
-        alert('Thank you for contacting GH Digitals! We will get back to you shortly.');
-        console.log(formData);
+        // Build mailto link with form data
+        const subject = encodeURIComponent(`[${formData.service}] New Inquiry from ${formData.name}`);
+        const body = encodeURIComponent(
+            `Name: ${formData.name}\n` +
+            `Email: ${formData.email}\n` +
+            `Phone: ${formData.phone || 'Not provided'}\n` +
+            `Service: ${formData.service}\n\n` +
+            `Message:\n${formData.message}`
+        );
+        window.location.href = `mailto:ghdigitalsacademy@gmail.com?subject=${subject}&body=${body}`;
     };
 
     return (

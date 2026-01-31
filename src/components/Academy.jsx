@@ -69,6 +69,9 @@ const Academy = () => {
                                 <li>Access to Recording</li>
                                 <li>Community Support</li>
                                 <li>Assignments & Review</li>
+                                <li>Class Holds Quarterly</li>
+                                <li>Internship Opportunity</li>
+                                <li>Certification</li>
                             </ul>
                             <Button variant="outline-primary" className="full-width" onClick={() => window.location.href = 'mailto:ghdigitalsacademy@gmail.com'}>Enroll Now</Button>
                         </div>
@@ -87,6 +90,7 @@ const Academy = () => {
                                 <li>Flexible Schedule</li>
                                 <li>Deep Dive Strategy</li>
                                 <li>Direct Mentorship</li>
+                                <li>Certification</li>
                             </ul>
                             <Button variant="secondary" className="full-width" onClick={() => window.location.href = 'mailto:ghdigitalsacademy@gmail.com'}>Enroll Now</Button>
                         </div>

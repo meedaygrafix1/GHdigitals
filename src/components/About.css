@@ -41,6 +41,9 @@
     flex-direction: column;
     margin-bottom: 5rem;
     max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .intro-content p {
@@ -168,10 +171,16 @@
 }
 
 .features-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
     margin-top: 3rem;
+}
+
+.features-grid .feature-card {
+    flex: 0 1 calc(25% - 2rem);
+    min-width: 220px;
 }
 
 .feature-card .icon-wrapper {
@@ -184,7 +193,7 @@
 }
 
 .feature-card {
-    text-align: left;
+    text-align: center;
     padding: 2rem;
     border-radius: var(--radius-md);
     transition: background 0.3s;

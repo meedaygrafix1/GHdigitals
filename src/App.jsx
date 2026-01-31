@@ -7,6 +7,7 @@ import Agency from './components/Agency';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import WhatsAppFloat from './components/WhatsAppFloat';
 import { useScrollReveal } from './hooks/useScrollReveal';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <WhatsAppFloat />
     </div>
   )
 }

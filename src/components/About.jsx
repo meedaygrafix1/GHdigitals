@@ -14,7 +14,7 @@ const About = () => {
                 </div>
                 <div className="intro-content">
                     <p className="lead-text">GH Digitals is a premier digital marketing academy and agency.</p>
-                    <p><strong>Core Purpose:</strong> Helping individuals, businesses, and organizations understand social media properly, use it strategically, and get real results—not just likes and followers.</p>
+                    <p><strong>Core Purpose:</strong> Helping individuals, businesses, and organizations understand social media properly, use it strategically, and get real results, not just likes and followers.</p>
                     <p><strong>Our Edge:</strong> Combining strategic thinking, creative execution, and data-driven insights to achieve digital marketing goals.</p>
                 </div>
             </div>
@@ -50,7 +50,7 @@ const About = () => {
                     <div className="section-header text-center">
                         <span className="eyebrow">Why Choose Us</span>
                         <h2>We Deliver Real Results</h2>
-                        <p className="subtitle">We don’t just teach or manage pages—we build confidence, systems, and long-term growth.</p>
+                        <p className="subtitle">We don't just teach or manage pages. We build confidence, systems, and long-term growth.</p>
                     </div>
 
 
@@ -62,7 +62,7 @@ const About = () => {
                         </div>
                         <div className="stat-item">
                             <span className="stat-number">60+</span>
-                            <span className="stat-label">Brands Worked With</span>
+                            <span className="stat-label">Trusted Brands</span>
                         </div>
                         <div className="stat-item">
                             <span className="stat-number">95%</span>

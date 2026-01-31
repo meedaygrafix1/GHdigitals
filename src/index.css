@@ -50,24 +50,24 @@ button {
 /* Global Container */
 .container {
   width: 100%;
-  max-width: 1280px;
-  /* Standard wide width */
+  max-width: 1400px;
+  /* Wider container for more card space */
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
   /* Mobile padding */
 }
 
 @media (min-width: 768px) {
   .container {
-    padding: 0 4rem;
-    /* Tablet/Desktop padding - "enough margin" */
+    padding: 0 2rem;
+    /* Less padding = more card space */
   }
 }
 
 @media (min-width: 1280px) {
   .container {
-    padding: 0 6rem;
-    /* Large screen extra spacing */
+    padding: 0 3rem;
+    /* Reduced from 6rem to give cards more room */
   }
 }
 

@@ -10,13 +10,16 @@
 
 /* Services Grid */
 .services-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 2rem;
     margin-bottom: 4rem;
 }
 
 .service-card {
+    flex: 0 1 calc(25% - 2rem);
+    min-width: 220px;
     padding: 3rem 2rem;
     border-radius: var(--radius-lg);
     background: white;
