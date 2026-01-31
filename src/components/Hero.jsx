@@ -12,7 +12,7 @@ const Hero = () => {
                     Empowering Brands & People Through <span className="highlight">Strategic Social Media</span>
                 </h1>
                 <div className="hero-actions">
-                    <Button variant="secondary" className="hero-cta-tertiary" onClick={() => window.location.href = '#contact'}>Book a Consultation</Button>
+                    <Button variant="secondary" className="hero-cta-tertiary" onClick={() => window.location.href = 'mailto:ghdigitalsacademy@gmail.com'}>Book a Consultation</Button>
                     <Button variant="outline" onClick={() => window.location.href = '#agency'}>Explore Our Services</Button>
                 </div>
             </div>

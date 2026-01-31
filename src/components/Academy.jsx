@@ -27,7 +27,7 @@ const Academy = () => {
                             <li>Professional design with your smartphone</li>
                         </ul>
                         <div style={{ marginTop: '2rem' }}>
-                            <Button variant="secondary" onClick={() => window.location.href = '#contact'}>Enroll in Training</Button>
+                            <Button variant="secondary" onClick={() => window.location.href = 'mailto:ghdigitalsacademy@gmail.com'}>Enroll in Training</Button>
                         </div>
                     </div>
                     <div className="highlight-visual">
@@ -70,7 +70,7 @@ const Academy = () => {
                                 <li>Community Support</li>
                                 <li>Assignments & Review</li>
                             </ul>
-                            <Button variant="outline-primary" className="full-width" onClick={() => window.location.href = '#contact'}>Enroll Now</Button>
+                            <Button variant="outline-primary" className="full-width" onClick={() => window.location.href = 'mailto:ghdigitalsacademy@gmail.com'}>Enroll Now</Button>
                         </div>
                     </div>
 
@@ -88,7 +88,7 @@ const Academy = () => {
                                 <li>Deep Dive Strategy</li>
                                 <li>Direct Mentorship</li>
                             </ul>
-                            <Button variant="secondary" className="full-width" onClick={() => window.location.href = '#contact'}>Enroll Now</Button>
+                            <Button variant="secondary" className="full-width" onClick={() => window.location.href = 'mailto:ghdigitalsacademy@gmail.com'}>Enroll Now</Button>
                         </div>
                     </div>
 

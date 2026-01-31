@@ -99,7 +99,7 @@ const Agency = () => {
                     </div>
 
                     <div style={{ marginTop: '3rem', textAlign: 'center' }} className="reveal">
-                        <Button variant="secondary" onClick={() => window.location.href = '#contact'}>Book a Consultation</Button>
+                        <Button variant="secondary" onClick={() => window.location.href = 'mailto:ghdigitalsacademy@gmail.com'}>Book a Consultation</Button>
                     </div>
                 </div>
             </div>
