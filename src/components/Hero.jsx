@@ -17,7 +17,7 @@ const Hero = () => {
                         We train individuals and manage brands through strategic digital marketing, helping you achieve measurable growth.
                     </p>
                     <div className="hero-actions">
-                        <Button variant="secondary" className="hero-cta-tertiary" onClick={() => window.location.href = 'mailto:ghdigitalsacademy@gmail.com'}>Book a Consultation</Button>
+                        <Button variant="secondary" className="hero-cta-tertiary" onClick={() => window.open('https://calendly.com/d/ctmb-2fr-ch8/30-minute-meeting', '_blank')}>Book a Consultation</Button>
                         <Button variant="outline" onClick={() => window.location.href = '#agency'}>Explore Our Services</Button>
                     </div>
                 </div>

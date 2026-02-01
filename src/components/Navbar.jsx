@@ -33,12 +33,12 @@ const Navbar = () => {
                     <a href="#agency" onClick={() => setMobileMenuOpen(false)}>Agency</a>
                     <a href="#contact" onClick={() => setMobileMenuOpen(false)}>Contact</a>
                     <div className="mobile-cta">
-                        <Button variant="secondary" onClick={() => window.location.href = 'mailto:ghdigitalsacademy@gmail.com'}>Book Consultation</Button>
+                        <Button variant="secondary" onClick={() => window.open('https://calendly.com/d/ctmb-2fr-ch8/30-minute-meeting', '_blank')}>Book Consultation</Button>
                     </div>
                 </nav>
 
                 <div className="desktop-cta">
-                    <Button variant="secondary" onClick={() => window.location.href = 'mailto:ghdigitalsacademy@gmail.com'}>Book Consultation</Button>
+                    <Button variant="secondary" onClick={() => window.open('https://calendly.com/d/ctmb-2fr-ch8/30-minute-meeting', '_blank')}>Book Consultation</Button>
                 </div>
 
                 <div className={`mobile-toggle ${mobileMenuOpen ? 'open' : ''}`} onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>

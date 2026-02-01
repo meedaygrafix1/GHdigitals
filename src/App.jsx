@@ -6,6 +6,7 @@ import Academy from './components/Academy';
 import Agency from './components/Agency';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
+import CommunityCTA from './components/CommunityCTA';
 import Footer from './components/Footer';
 import WhatsAppFloat from './components/WhatsAppFloat';
 import { useScrollReveal } from './hooks/useScrollReveal';
@@ -23,6 +24,7 @@ function App() {
         <Agency />
         <Testimonials />
         <Contact />
+        <CommunityCTA />
       </main>
       <Footer />
       <WhatsAppFloat />
