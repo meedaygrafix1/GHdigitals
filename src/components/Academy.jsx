@@ -27,7 +27,7 @@ const Academy = () => {
                             <li>Professional design with your smartphone</li>
                         </ul>
                         <div style={{ marginTop: '2rem' }}>
-                            <Button variant="secondary" onClick={() => window.location.href = 'mailto:ghdigitalsacademy@gmail.com'}>Enroll in Training</Button>
+                            <Button variant="secondary" onClick={() => window.open('https://wa.me/message/XRN5MQPHWXUDC1', '_blank')}>Enroll in Training</Button>
                         </div>
                     </div>
                     <div className="highlight-visual">
@@ -73,7 +73,7 @@ const Academy = () => {
                                 <li>Internship Opportunity</li>
                                 <li>Certification</li>
                             </ul>
-                            <Button variant="outline-primary" className="full-width" onClick={() => window.location.href = 'mailto:ghdigitalsacademy@gmail.com'}>Enroll Now</Button>
+                            <Button variant="outline-primary" className="full-width" onClick={() => window.open('https://wa.me/message/XRN5MQPHWXUDC1', '_blank')}>Enroll Now</Button>
                         </div>
                     </div>
 
@@ -92,7 +92,7 @@ const Academy = () => {
                                 <li>Direct Mentorship</li>
                                 <li>Certification</li>
                             </ul>
-                            <Button variant="secondary" className="full-width" onClick={() => window.location.href = 'mailto:ghdigitalsacademy@gmail.com'}>Enroll Now</Button>
+                            <Button variant="secondary" className="full-width" onClick={() => window.open('https://wa.me/message/XRN5MQPHWXUDC1', '_blank')}>Enroll Now</Button>
                         </div>
                     </div>
 
@@ -109,7 +109,7 @@ const Academy = () => {
                                 <li>On-site or Virtual</li>
                                 <li>Post-training Support</li>
                             </ul>
-                            <Button variant="outline-primary" className="full-width" onClick={() => window.location.href = '#contact'}>Contact Us</Button>
+                            <Button variant="outline-primary" className="full-width" onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>Contact Us</Button>
                         </div>
                     </div>
                 </div>

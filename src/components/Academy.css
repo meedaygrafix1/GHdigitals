@@ -259,13 +259,58 @@
 }
 
 @media (max-width: 768px) {
+    .academy-section {
+        padding: 3rem 0;
+    }
+
     .mobile-first-highlight {
         flex-direction: column-reverse;
         text-align: left;
+        padding: 2rem;
+        margin: 3rem 0;
+        gap: 2rem;
+    }
+
+    .highlight-content h3 {
+        font-size: 1.75rem;
+    }
+
+    .pricing-header h3 {
+        font-size: 2rem;
+    }
+
+    .pricing-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
     }
 
     .pricing-card.featured {
         transform: scale(1);
-        border-width: 2px;
+        border-width: 1px;
+    }
+
+    .pricing-card.featured:hover {
+        transform: translateY(-5px);
+    }
+
+    .pricing-card:hover {
+        transform: translateY(-5px);
+    }
+}
+
+@media (max-width: 480px) {
+    .visual-box {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1;
+    }
+
+    .mobile-first-highlight {
+        padding: 1.5rem;
+    }
+
+    .learning-items span {
+        width: 100%;
+        justify-content: center;
     }
 }

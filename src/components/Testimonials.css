@@ -66,3 +66,19 @@
     font-size: 0.9rem;
     color: #777;
 }
+
+@media (max-width: 768px) {
+    .testimonials-section {
+        padding: 3rem 0;
+    }
+
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    .testimonial-card {
+        padding: 2rem;
+    }
+}

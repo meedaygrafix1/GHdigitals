@@ -228,6 +228,10 @@
 }
 
 @media (max-width: 768px) {
+    .agency-section {
+        padding: 3rem 0;
+    }
+
     .service-card {
         flex: 0 1 100%;
         min-width: unset;
@@ -240,5 +244,13 @@
 
     .package-card.featured:hover {
         transform: translateY(-5px) scale(1);
+    }
+
+    .ads-section {
+        padding: 2rem 1.5rem;
+    }
+
+    .ads-content {
+        grid-template-columns: 1fr;
     }
 }
