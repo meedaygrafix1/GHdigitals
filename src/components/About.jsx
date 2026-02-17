@@ -13,7 +13,7 @@ const About = () => {
                     <h2>Who is GH Digitals?</h2>
                 </div>
                 <div className="intro-content">
-                    <p className="lead-text">GH Digitals is a premier digital marketing academy and agency.</p>
+                    <p className="lead-text">GH Digitals is a premium digital marketing academy and agency.</p>
                     <p><strong>Core Purpose:</strong> Helping individuals, businesses, and organizations understand social media properly, use it strategically, and get real results, not just likes and followers.</p>
                     <p><strong>Our Edge:</strong> Combining strategic thinking, creative execution, and data-driven insights to achieve digital marketing goals.</p>
                 </div>
